@@ -1,0 +1,21 @@
+First programming used lamda expressions is LISP.
+
+The main objective of lamda Expressions is to bring benefits of functional programming in java.
+lamda expressions: It is an annonymous function.
+                               |
+              (nameless,without return type,without modifiers)
+
+eg1:                                                                   In lamda expression
+public void m1(){
+   System.out.println("Hello");     --------->               ()-> {System.out.println("Hello");};  (If only one statement is there then we can remove curly braches)
+}                                                            ()-> System.out.println("Hello");
+
+
+eg2:
+public void m1(int a,int b){
+   System.out.println(a+b);        ---------->               (a,b)-> System.out.println(a+b);
+}  
+
+we can call normal methods by its name like m1(2,4)  but how we can call lambda expressions?? 
+So the answer is by using functional Interface.
+So for calling lamda expression we reqire Functional Interface.
