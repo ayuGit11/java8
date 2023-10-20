@@ -1,0 +1,22 @@
+ Java 8 or JDK 8.0 is one of the major releases of the Java programming language in 2014. It is also known by the codename Spider. Java is an open-source project and is currently managed by Oracle Corporation.
+
+ === Concise code: By enabling functional programming.(we can write less lines of code)
+ 1.lamda expression
+ 
+ before java8:   public static void main(String args[]){                   After java8:    import java.util.Function.*;  
+                                                                                            public static void main(String args[]){
+                     System.out.println(square(4));                                             Function<Intger,Integer> f = i->i*i;
+                  }                                                                             System.out.println(f.apply(4));
+                  public static int square(int n){                                          }
+                     return n*n;
+                  }
+ 
+ 2.Functional Interface
+ 3.Default methods & static methods
+ 4.predifined functinal interface
+ 5.double colon operator(::)  {method reference,constructor reference}
+ 6.stream
+ 7.data & time API
+ 8.optional class
+ 9.Nashron javascript engine.
+
